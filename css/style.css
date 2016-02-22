@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Helvetica neue thin';
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +21,7 @@
 	height: 1064px;
 	margin: 0 auto;
 	background-color: orange;
-	font: 14px Tahoma, sans-serif;
+	font: 14px 'Helvetica neue thin', sans-serif;
 }
 
 
@@ -76,6 +89,28 @@
 .menu-header-right li:nth-child(1) a{
 	margin-left: 20px;
 }
+
+
+nav {
+    width: 176px;
+    height: 36px;
+    margin-left: 1004px;
+    padding-left: 15px;
+    padding-top: 10px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    background: -o-linear-gradient(270deg, rgb(50, 122, 193) 0%, rgb(79, 169, 217) 69%);
+    background: -ms-linear-gradient(270deg, rgb(50, 122, 193) 0%, rgb(79, 169, 217) 69%);
+    background: linear-gradient(0deg, rgb(50, 122, 193) 0%, rgb(79, 169, 217) 69%);
+    font: 14px 'Helvetica neue thin', sans-serif;
+}
+
+nav a{
+    color: #FFFFFF;
+    font: 14px 'Helvetica neue thin', sans-serif;
+}
+
+
 /* END HEADER */
 
 
@@ -96,7 +131,7 @@
 	height: 60px;
 	background-color: rgba(0, 0, 0, 0.6);
 	color: #FFFFFF;
-	font: 24px Tahoma, sans-serif;
+	font: 24px 'Helvetica neue thin', sans-serif;
 	line-height: 60px;
 	
 }
@@ -105,12 +140,12 @@
 	margin-top: 36px;
 }
 
-.OU {
+.ou {
 	line-height: 74px;
 	color: #989898;
 }
 
-.OU img{
+.ou img{
 	vertical-align: middle;
 	color: #989898;
 }
@@ -134,7 +169,7 @@ input[type=text],input[type=email],input[type=password] {
 	border-bottom:1px solid #4B4B4A;
 	margin-bottom: 15px;
 	padding-left: 17px;
-	font: bold 14px  Tahoma, sans-serif;
+	font: bold 14px  'Helvetica neue thin', sans-serif;
 }
 
 input[type=text]:focus,input[type=email]:focus,input[type=password]:focus {
@@ -171,6 +206,6 @@ input[type=submit] {
 
 .footer {
 	color:#FFFFFF;
-	font: 11px Tahoma, sans-serif;
+	font: 11px 'Helvetica neue thin', sans-serif;
 }
 
